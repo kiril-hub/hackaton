@@ -2,7 +2,7 @@ const Observable = require("tns-core-modules/data/observable").Observable;
 
 function getMessage(counter) {
     if (counter <= 0) {
-        return "Hoorraaay! You unlocked the NativeScript clicker achievement!";
+        return "Her!";
     } else {
         return `${counter} taps left`;
     }
