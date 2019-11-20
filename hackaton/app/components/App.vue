@@ -3,19 +3,11 @@
         <ActionBar title="Welcome to NativeScript-Vue!"/>
         <GridLayout columns="*" rows="*">
             <Label class="message" :text="msg" col="0" row="0"/>
-            <WebView src="c:/users/1/documents/github/hackaton/hackaton/app/components/mapbasics.html"/>
+            <WebView src="https://hack.ravishman.com/mapbasics.html"/>
         </GridLayout>
     </Page>
 </template>
-<script>
-  export default {
-    data() {
-      return {
-        msg: 'Hello World!'
-      }
-    }
-  }
-</script>
+
 <style scoped>
     ActionBar {
         background-color: #53ba82;
