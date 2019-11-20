@@ -1,6 +1,6 @@
 <template>
     <Page>
-        <ActionBar title="Welcome to NativeScript-Vue!"/>
+        <ActionBar title="124234dsad4323" flat="true"/>
         <GridLayout columns="*" rows="*">
             <Label class="message" :text="msg" col="0" row="0"/>
             <WebView src="https://hack.ravishman.com/mapbasics.html"/>
@@ -10,7 +10,7 @@
 
 <style scoped>
     ActionBar {
-        background-color: #53ba82;
+        background-color: #53ba82;  
         color: #ffffff;
     }
 

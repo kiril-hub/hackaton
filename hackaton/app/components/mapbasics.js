@@ -7,9 +7,8 @@ function init () {
     // Создание экземпляра карты и его привязка к контейнеру с
     // заданным id ("map").
     myMap = new ymaps.Map('map', {
-        
-        center: [57.92, 60.02], // Москва
-        zoom: 10
+        center: [57.92755262, 60.02718296],
+        zoom: 16
     }, {
         searchControlProvider: 'yandex#search'
     });
