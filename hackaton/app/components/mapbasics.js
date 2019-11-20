@@ -16,7 +16,6 @@ function init () {
     .remove("trafficControl")
     .remove("miniMap")
     .remove("scaleLine")
-    .remove("routeEditor")
     .remove("smallZoomControl")
     .remove("fullscreenControl")
     .remove("rulerControl");
