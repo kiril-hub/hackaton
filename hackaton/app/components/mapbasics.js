@@ -8,14 +8,17 @@ function init () {
     // заданным id ("map").
     myMap = new ymaps.Map('map', {
         center: [57.92755262, 60.02718296],
-        zoom: 16
+        zoom: 16,
     }, {
         searchControlProvider: 'yandex#search'
     });
-
-    document.getElementById('destroyButton').onclick = function () {
-        // Для уничтожения используется метод destroy.
-        myMap.destroy();
-    };
+    myMap.controls.remove("mapTools")
+    .remove("trafficControl")
+    .remove("miniMap")
+    .remove("scaleLine")
+    .remove("routeEditor")
+    .remove("smallZoomControl")
+    .remove("fullscreenControl")
+    .remove("rulerControl");
 
 }
